@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#304C78"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.gionee.wsq.cricleprogress.MainActivity">
+
+    <com.gionee.wsq.cricleprogress.CircleProgressView
+        android:layout_gravity="center"
+        android:id="@+id/test_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:radius="150dp"
+        app:stripeWidth="30dp"
+        app:backgroundProgressColor="#6F83A1"
+        app:backgroundInColor="#304C78"
+        app:progressColor="#FEFEFE"
+        app:textSizeOne="80sp"
+        app:textSizeTwo="20sp"
+        app:textSizeThree="30sp"
+        app:textColorTwo="#FEFEFE"
+        app:textBoldOne="true"
+        app:textBoldTwo="true"
+        />
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_gravity="center_vertical"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:background="#000"/>-->
+</FrameLayout>
