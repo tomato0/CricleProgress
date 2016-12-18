@@ -4,7 +4,7 @@
 #自定义圆形进度的类CircleProgressView
 #全类名：com.gionee.wsq.cricleprogress.CircleProgressView
 ##Xml布局文件中使用配置：
-	###app:radius			配置圆形进度的半径，及布局的大小，也可设置布局宽高指定							大小，match_parent时充满布局xxdp
+	###app:radius			配置圆形进度的半径，及布局的大小，也可设置布局宽高指定大小，match_parent时充满布局xxdp
 	###app:stripeWidth	配置进度条的宽度xxdp
 	####app:progress		指定默认进度，不大于100的int值
 	###app:backgroundInColor	配置布局控件背景色
