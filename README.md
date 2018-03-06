@@ -28,7 +28,7 @@
 ### textBoldTwo  
 ### textBoldThree  
 ### 设置文本是否加粗　true(加粗)，false(不加粗)  
-===
+***
 
 ## 也可在代码中通过相应的set方法设置：  
 ### setRadius									设置半径  
